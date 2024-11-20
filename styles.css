@@ -38,7 +38,13 @@ body {
   border: 4px solid #ededed;
   border-radius: 16px;
   width: 600px;
+  transition: 500ms;
   height: 400px;
+}
+@media (max-width: 700px) {
+  .hero {
+    width: 90vw;
+  }
 }
 
 h1 {
@@ -48,6 +54,17 @@ h1 {
   line-height: 100%;
   color: #000;
   margin-bottom: 16px;
+  transition: 500ms;
+}
+@media (max-width: 700px) {
+  h1 {
+    font-size: 52px;
+  }
+}
+@media (max-width: 360px) {
+  h1 {
+    font-size: 42px;
+  }
 }
 
 p {
@@ -58,6 +75,12 @@ p {
   color: #000;
   font-weight: 450;
   margin-bottom: 32px;
+  transition: 500ms;
+}
+@media (max-width: 700px) {
+  p {
+    font-size: 16px;
+  }
 }
 
 a.link {
@@ -70,6 +93,11 @@ a.link {
   margin-bottom: 32px;
   color: gray;
   transition: 500ms;
+}
+@media (max-width: 700px) {
+  a.link {
+    font-size: 16px;
+  }
 }
 
 a.link:hover {
