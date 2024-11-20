@@ -1,4 +1,4 @@
 # Это тестовый проект
 Я чет не оч ориентируюсь в гитхабе, но вроде чет загрузил
 
-## **[Открыть сайт](https://overdosekid.github.io/helloWorld/)**
+## **[Открыть сайт](https://overkid.github.io/helloWorld/)**
