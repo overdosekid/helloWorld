@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow: hidden;
+}
+
 @font-face {
   font-family: Clash Grotesk Variable;
   src: url(assets/fonts/ClashGrotesk-Variable.ttf);
